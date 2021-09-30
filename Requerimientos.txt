@@ -1,0 +1,64 @@
+Requerimentoz Funcionales
+
+El sistema debe permitir la visualización de los datos de los animales registrados en la base de datos
+
+	Requerimiento  1
+	nombre de historia de usuario: 
+		Listado de animales
+	Como:
+		Usuario
+	Descripción:
+		Quiero visualizar un listado con los animales que se encuentran registrados en el sistema.
+	Aceptación:
+		El sistema muestra un listado de todos los animales registrados con su respectiva información.
+
+
+El sistema debe permitir la visualización de los datos de las zonas deforestadas registrados en la base de datos
+
+	Requerimiento  2
+	nombre de historia de usuario: 
+		Listado de zonas 
+	Como:
+		Usuario
+	Descripción:
+		Quiero visualizar un listado con las zonas deforestadas que se encuentran registradas en el sistema.
+	Aceptación:
+		El sistema muestra un listado de todas las zonas  registradas con su respectiva información.
+	
+El sistema debe permitir la visualización de la información de los animales que se encuentra en zonas de deforestación
+
+	Requerimiento  3
+	nombre de historia de usuario: 
+		Animales que afectan las zonas
+	Como:
+		Usuario
+	Descripción:
+		Quiero visualizar un listado de los animales que afectan cada una de  las zonas deforestadas 
+	Aceptación:
+		El sistema muestra un listado de todas las zonas deforestada y un desplegable con la información de cada uno de los animales que afectan cada zona y sus alrededores
+
+El sistema debe permitir el filtrado de las zonas afectadas por su ubicación.
+
+	Requerimiento 4
+	nombre de historia de usuario: 
+		Filtrado de animales 
+	Como:
+		Usuario
+	Descripción:
+		Quiero poder filtrar los animales por su información
+	Aceptación:
+		El sistema permite filtrar el listado de animales tanto por el nombre de propietario como por su ubicación
+
+
+Requerimientos no Funcionales
+
+1 Seguridad en los datos.
+	El sistema debe tener validaciones que permitan un adecuado manejo de los datos.
+2. Guía para los usuarios
+	El sistema debe permitir una ayuda que guíe a los usuarios a través del aplicativo. 
+3. Requisitos de software
+	El back-end será llevado a cabo con Node JS
+	El front-end será llevado a cabo con React JS
+	El sistema zera accedido mediante un navegador web
+4. Requisitos de hardware
+	Se requiere una conexión a internet de alta velocidad 
